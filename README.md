@@ -15,16 +15,21 @@ This project is a full-stack application with a React front-end and Node.js back
 
    ```bash
    git clone https://github.com/T-BO0/digital-project.git
-2. **Navigate to the digital-project/final-api**
+2. **Navigate to the digital-project/final-api and install dependencies**
    ```bash
+   # navigate to api project
    cd digital-project/final-api
-3. **Open Docker Desktop and rund docker compose file**
+
+   # install dedependencies
+   npm install
+   
+3. **Open Docker Desktop and run docker compose file**
    
    open terminal and run:
    ```bash
    docker compose up
 
-4. **Run bask-end server**
+4. **Run back-end server**
    
    open new tab in the terminal in final-api directory and run:
    ```bash
@@ -35,6 +40,9 @@ This project is a full-stack application with a React front-end and Node.js back
    ```bash
    # navigate to front-end project
    cd ../digit-shop
+
+   # install dependencies
+   npm install
 
    # run front-end project
    npm start
